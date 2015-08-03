@@ -13,7 +13,10 @@ class String
           letter
         end)
       end
+      new_word.push(' ')
+
     end
-    new_word.join()
+    new_word.join().rstrip
+
   end
 end
